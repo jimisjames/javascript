@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    padding: 0;
+    margin: auto;
+    width: 1000px;
+}
+
+.row {
+    height: 20px;
+}
+
+.row div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.brick {
+    background: blue;
+}
+
+.coin {
+    background-image: url("coin.gif");
+    background-size: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cherry {
+    background-image: url("cherry.png");
+    background-size: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gameInfo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.character {
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+    position: relative;
+}
+
+.character img {
+    width: 20px;
+    height: 20px;
+}
+
+#lives {
+    display: inline-block;
+    background-color: rgb(72, 148, 72);
+    vertical-align: top;
+    margin: 10px 20px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(103, 238, 77);
+}
+
+#scoreBoard {
+    display: block;
+    background-color: rgb(72, 148, 72);
+    margin: 15px 20px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(103, 238, 77);
+}
+
+#world{
+    display: inline-block;
+}
